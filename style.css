@@ -1,8 +1,10 @@
-html{
-    border: none;
+body{
+    font-family: roboto;
 }
 
+:active{
 
+}
 
 
 a{
@@ -108,10 +110,14 @@ a:visited{
 .ghost-image{
     height: 200px;
     width: 200px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+    border-width: 3px;
 }
 
 .section-two-image-containers{
-    height: 350px;
+    height: 4000px;
     width: 200px;
 }
 
@@ -166,6 +172,9 @@ a:visited{
     background-color: #3882f6;
     color: white;
     border-color: white;
+    border: solid;
+    cursor: pointer;
+    border-width: 1px;
     width: 100px;
     height: 30px;
     border-radius: 10px;
